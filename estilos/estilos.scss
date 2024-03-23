@@ -167,15 +167,6 @@ color: #EDDEA4;
         opacity: 1;
     }
 }
-
-// @mixin grayscale{
-//     filter: grayscale(100%);
-// }
-// @mixin sepia{
-//     filter:sepia(100%)
-// }
-
-
 .galeriah2{
     color: $micolor4;
     background-color: #000;
@@ -286,4 +277,53 @@ color: #EDDEA4;
 .galery-index a{
     background-color: $micolor4;
     color: $micolor3;
+}
+
+                     // Inicia destinos/////
+body{
+    background-color: $micolor2;
+}
+@mixin anclas1 {
+    background-color: #000;
+    color: #0E41B0;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+@mixin PD{
+    font-family: $mifuente3;
+    background-color: $micolor2;
+    text-align: center;
+    color: $micolor3;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+@mixin AD{
+    color: $micolor4;
+    font-size: 20px;
+    background-color: $micolor1;
+    text-decoration: none;
+}
+.presdestinos{
+    @include anclas1;
+}
+.PD{
+    @include PD;
+}
+.PD a{
+    @include AD
+}
+
+
+
+
+/* COMIENZA ESTILOS DE "Contanos" */
+
+.contanos h2{
+    background-color: $micolor4;
+    text-align: center;
+}
+.contanos p{
+    margin-left: 3%;
+    margin-right: 3%;
 }

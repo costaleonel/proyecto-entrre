@@ -304,6 +304,9 @@ body{
     background-color: $micolor1;
     text-decoration: none;
 }
+@mixin img{
+    padding: 300px
+}
 .presdestinos{
     @include anclas1;
 }
@@ -313,8 +316,45 @@ body{
 .PD a{
     @include AD
 }
-
-
+//inicia estilos experiencias//
+.h2exp{
+    @include anclas1;
+    margin-bottom: 0;
+}
+.experiencias{
+    background-image: url(../img/experiencias.main1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experiencia{
+    background-color: rgba(196, 196, 191, 0.356);
+    width: 60%;
+    border: 6px solid orange;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.experiencia h1{
+    color: #0E41B0;
+    text-align: center;
+    text-shadow: 0 0 4px;
+    font-family: $mifuente1;
+}
+.experiencia a{
+    background-color: $micolor1;
+    color: $micolor3;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 20px;
+}
+.card{
+    background-color: $micolor2;
+    text-align: center;
+}
 
 
 /* COMIENZA ESTILOS DE "Contanos" */
@@ -326,4 +366,15 @@ body{
 .contanos p{
     margin-left: 3%;
     margin-right: 3%;
+}
+.card{
+    overflow: hidden;
+}
+.card-body{
+    font-family: $mifuente1;
+    color: $micolor4;
+    background-color: $micolor3;
+}
+.card img{
+    
 }

@@ -1,0 +1,10 @@
+en esta pre-entrega le realice varios cambios al proyecto,
+*En "scss" realice cambios declare variables de con fuentes y colores y agrege mixin que fui usando con los class me sirvieron de mucho los mixin ya que te ahorra de escribir bastante. 
+*en el "index" tenia unas img con float y las reemplace usando img con columnas de bootstrap y agregando unos botones a link.
+*En "galeria" agrege una animacion a la vieja galeria y agrege dos tarjetas.
+*En "Destinos" relice los cambios que se me habian mencionado en la correccion del trabajo anterior como agregar los margin y centrar bien los     textos ademas reemplace aslgunas imagenes.
+*EN "Experiencias" reemplace las card ya que antes no me gustaba mucho como quedaba en resoluciones chicas y las reemplace por cards de bootstrap si bien no me agrada totalmente como quedo vere que cambios le puedo realizar para el proyecto final.
+En "Contano" practimante lo deje igual solo agrege fuentes y centre los textos.
+
+Espero su correccion y estoy atento a comentarios de como mejorar y corregir si hay algo mal o que pudiera estar mejor, creo haber corregido las sugerencias realizadas en la entrega anterior .
+PD: aun no logro que en el formulario de "Contanos" al poner enviar se borre el formularios.

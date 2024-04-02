@@ -33,20 +33,33 @@ font-family: "Merriweather", serif; */
   height: 380px;
   color: #000;
   width: 100%;
+  text-align: center;
+}
+
+.ju {
+  background-color: rgba(92, 87, 87, 0.397);
+  width: 70%;
+  padding: 20px;
+  border: 3px solid rgba(14, 65, 176, 0.5764705882);
+  text-align: center;
+  color: #FF4500;
 }
 
 main {
-  background-color: #09636B;
+  background-image: linear-gradient(to right bottom, #053718, #00422d, #004e42, #005957, #09636b);
   width: 100%;
   height: auto;
   color: #000;
 }
 
-.presentacion {
+#intro {
+  margin-top: 3%;
   color: #F05D0E;
-  text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
+}
+
+#intro p {
+  font-size: 20px;
+  color: rgba(248, 248, 248, 0.9921568627);
 }
 
 .galery-index {
@@ -67,12 +80,20 @@ main {
 .pinter {
   color: #F05D0E;
   text-align: center;
+  font-size: 22px;
   margin-left: 8%;
   margin-right: 8%;
 }
 
 .sec {
-  width: auto;
+  overflow: hidden;
+  margin-left: 25%;
+  margin-bottom: 3%;
+  width: 50%;
+  height: 50%;
+  background-size: cover;
+  text-align: center;
+  background-position: center;
 }
 
 footer {
@@ -87,7 +108,7 @@ footer p {
   margin-bottom: 20px;
 }
 
-.redes {
+footer a {
   color: #09636B;
   text-decoration: none;
   font-size: 30px;
@@ -124,24 +145,20 @@ main.call {
 }
 
 .call {
-  background-color: rgba(255, 255, 255, 0.082);
+  background-color: rgba(92, 87, 87, 0.397);
   width: 70%;
   padding: 20px;
-  border: 5px solid orange;
+  border: 3px solid #0E41B0;
   text-align: center;
 }
 
-.call1 {
-  background-color: #09636B;
-}
-
 .call h1 {
-  color: #0E41B0;
+  color: #F05D0E;
   text-shadow: 0 0 5px;
 }
 
 .call p {
-  color: #EDDEA4;
+  color: rgba(248, 248, 248, 0.9921568627);
 }
 
 .call1 h2 {
@@ -153,10 +170,10 @@ main.call {
 }
 
 .call1 p {
-  color: #000;
+  color: #F05D0E;
   font-family: "Ojuju", sans-serif;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 2%;
+  margin-bottom: 2%;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -183,7 +200,6 @@ main.call {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(8, 200px);
-  background-color: #09636B;
   padding: 20px;
   grid-gap: 20px;
 }
@@ -194,7 +210,7 @@ main.call {
   background-repeat: no-repeat;
   background-position: center;
   transition: all 0.9s;
-  background-color: #0E41B0;
+  background-color: #04BF8A;
 }
 
 .item:hover {
@@ -284,10 +300,6 @@ main.call {
     grid-template-rows: 200px 200px;
   }
 }
-.tarjet {
-  background-color: #09636B;
-}
-
 .galery-index a {
   background-color: #0E41B0;
   color: #000;
@@ -307,18 +319,31 @@ body {
 
 .PD {
   font-family: "Madimi One", sans-serif;
-  background-color: #09636B;
   text-align: center;
-  color: #000;
-  margin-left: 3%;
-  margin-right: 3%;
+  color: rgba(248, 248, 248, 0.9921568627);
+  font-size: 20px;
 }
 
-.PD a {
+.destino-cordoba {
+  margin-top: 5%;
+}
+
+.destino-cordoba h2 {
+  color: #F05D0E;
+}
+
+button, .AD {
   color: #0E41B0;
   font-size: 20px;
   background-color: #F05D0E;
   text-decoration: none;
+  margin-bottom: 5%;
+  -webkit-text-decoration: noneS;
+          text-decoration: noneS;
+}
+
+.sanluis {
+  margin-top: 5%;
 }
 
 .h2exp {
@@ -327,7 +352,7 @@ body {
   text-align: center;
   font-size: 30px;
   padding: 20px;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 
 .experiencias {
@@ -367,17 +392,52 @@ body {
 .card {
   background-color: #09636B;
   text-align: center;
+  color: #F05D0E;
+}
+
+section {
+  background-image: linear-gradient(to right bottom, #053718, #00422d, #004e42, #005957, #09636b);
 }
 
 /* COMIENZA ESTILOS DE "Contanos" */
-.contanos h2 {
-  background-color: #0E41B0;
+.contanos h3 {
   text-align: center;
+  font-size: 25px;
+  color: #F05D0E;
+  margin-bottom: 25px;
+}
+
+.PDC {
+  text-align: center;
+  color: #F05D0E;
+  text-decoration: underline;
 }
 
 .contanos p {
+  color: rgba(248, 248, 248, 0.9921568627);
+  font-size: 20px;
+  text-align: center;
   margin-left: 3%;
   margin-right: 3%;
+}
+
+.formulario {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+}
+
+.formulario button {
+  margin-top: 10px;
+  color: #000;
+  font-size: 20px;
+  background-color: #F05D0E;
+  text-decoration: none;
+  margin-bottom: 5%;
+}
+
+.formulario .form-label {
+  color: #F05D0E;
 }
 
 .card {
@@ -386,6 +446,10 @@ body {
 
 .card-body {
   font-family: "Merriweather", serif;
-  color: #0E41B0;
+  color: #04BF8A;
   background-color: #000;
+}
+
+body {
+  background-image: linear-gradient(to right bottom, #053718, #00422d, #004e42, #005957, #09636b);
 }/*# sourceMappingURL=estilos.css.map */
